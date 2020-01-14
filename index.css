@@ -1,0 +1,127 @@
+
+body {
+	/* Check that this will actually be Brown*/
+	font-family: brown;
+	font-weight: 200;
+}
+
+.jumbotron {
+      background: url('studio.jpeg') no-repeat center center;
+      background-size: cover;
+      padding-top: 20%;
+      padding-bottom: 20%;
+    }
+
+.content {
+	margin: 40px;
+}
+
+img {
+  width: 80%;
+  height: auto;
+}
+
+.heading {
+	font-weight: 600;
+	font-size: 5rem;
+	color: white;
+}
+
+.subhead {
+	font-size: 2rem;
+	color: white;
+}
+
+#arrow {
+	font-size: 45px;
+}
+
+h2 {
+	font-weight: 600;
+	font-size: 3Rem;
+	/*font-size: 4Rem;*/
+}
+
+h3 {
+	font-weight: 200;
+	font-size: 1.5Rem;
+	/*font-size: 4Rem;*/
+}
+
+#footersection {
+	padding: 20px;
+	background: #343a40;
+	color: white;
+}
+
+	#footersection ul li a {
+    color: white;
+}
+
+.sectionhead {
+	padding-bottom: 50px;
+}
+
+
+.navbar.scrolled {
+    background: #343a40;
+    transition: background 1000ms;
+}
+
+#mainNavbar {
+    font-family: brown;
+	font-weight: 200;
+	font-style: normal;
+    font-size: 1.2rem;
+    color: white;  
+}
+
+
+#mainNavbar .nav-link {
+	color: white;
+}
+
+#mainNavbar .nav-link:hover {
+    color: #EA1C2C;
+}
+
+#mainNavbar .navbar-brand {
+    font-size: 1.5rem;
+}
+
+.iframe-container{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* Ratio 16:9 ( 100%/16*9 = 56.25% ) */
+}
+.iframe-container > *{
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+
+/* I wanted to put some margin between sections with this */
+
+
+
+/*.img-fluid {
+	width: 500px;
+    height: 500px;
+}*/
+
+
+
+
+/* Photo idea for background in JumboTron - from Pattern Project*/
+/*#header {
+	background-color: yellow; 
+     background: url("studio.jpeg") center center / cover no-repeat;
+}*/
