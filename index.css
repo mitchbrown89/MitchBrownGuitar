@@ -107,21 +107,21 @@ h3 {
     width: 100%;
 }
 
+.video-container {
+  position:relative;
+  padding-bottom:56.25%;
+  padding-top:30px;
+  height:0;
+  overflow:hidden;
+}
 
-/* I wanted to put some margin between sections with this */
+.video-container iframe, .video-container object, .video-container embed {
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+}
 
 
 
-/*.img-fluid {
-	width: 500px;
-    height: 500px;
-}*/
-
-
-
-
-/* Photo idea for background in JumboTron - from Pattern Project*/
-/*#header {
-	background-color: yellow; 
-     background: url("studio.jpeg") center center / cover no-repeat;
-}*/
