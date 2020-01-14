@@ -69,11 +69,12 @@ h3 {
 }
 
 #mainNavbar {
-    font-family: Montserrat;
+  font-family: Montserrat;
 	font-weight: 200;
 	font-style: normal;
-    font-size: 1.2rem;
-    color: white;  
+  font-size: 1.2rem;
+  color: white;  
+  background: #343a40;
 }
 
 
