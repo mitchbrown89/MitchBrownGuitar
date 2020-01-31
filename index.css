@@ -63,10 +63,10 @@ h3 {
 }
 
 
-.navbar.scrolled {
+/*.navbar.scrolled {
     background: #343a40;
     transition: background 1000ms;
-}
+}*/
 
 #mainNavbar {
   font-family: Montserrat;
